@@ -23,11 +23,32 @@ body {
 
 .quote {
   font-family: 'Julius Sans One', sans-serif;
-  font-size: 2.5rem; 
+  font-size: 2.0rem;
+  text-transform: uppercase;
 }
 
 .author {
   font-family: 'Crimson Text', serif;
   font-size: 1.5rem;
   font-style: italic;
+}
+
+.nav {
+  text-align: center;
+}
+
+a {
+  padding: 10px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: aqua;
+}
+
+@media (max-width: 600px) {
+  .quote {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 1.0rem; 
+  }
 }
